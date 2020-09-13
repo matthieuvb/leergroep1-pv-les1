@@ -1,0 +1,8 @@
+0 *x** -> E 3 #als E vrij is, ga E
+0 *E** -> X 1 #als E geblokkeerd is, ga 1
+1 x*** -> N 0 #als N vrij is, ga N
+1 N*** -> X 2 #als N geblokkeerd, ga state 2
+2 **x* -> W 1 #als W vrij is, ga W
+2 **W* -> X 3 #als W geblokkeerd, ga state 3
+3 ***x -> S 2 #als S vrij is, ga S
+3 ***S -> X 0 #als S geblokkeerd is, ga state 0
